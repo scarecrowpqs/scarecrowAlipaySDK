@@ -209,4 +209,12 @@ class AopSdk{
 		$bool = $Response->check($arr);
 		return $bool;
 	}
+
+	/**
+	 * 作者
+	 */
+	public function author()
+	{
+		echo "Scarecrow";
+	}
 }
